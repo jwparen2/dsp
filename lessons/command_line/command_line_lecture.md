@@ -70,6 +70,10 @@ directory.
 
 > Question: How could we make sure that we moved?
 
+```bash
+pwd
+```
+
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
 down. Sometimes we want to move back up a folder. To do that we can do:
@@ -146,6 +150,10 @@ Nice.
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
 
+```bash
+curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
+```
+
 Now that we have the data file, let's learn how to manipulate files.
 
 ### Copying, Moving, and Removing Files
@@ -192,6 +200,8 @@ ls -lh
 ```
 
 > What changed?
+
+The information is now in human readable format.
 
 If instead copying we just want to change the name of a file, we can do:
 
